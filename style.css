@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head,.top_med,#sbox,#logo,.full,.day,aside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.head,#sbox{
+    border: 1px solid black;
+    height: 13vh;
+    width: 100%;
+}
+.top_med{
+    height: 100%;
+    width: 80%;
+    border: 1px solid black;    
+}
+#logo,aside{
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;  
+}
+.autocomplete{
+    width: 98%;
+}
+#myInput{
+    width: 100%;
+    height: 6.5vh;
+    border-radius: 20px;
+}
+#highlights{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.index{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7a7a7aad;
+}
+.aqipics{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 98%;
+    height: 80%;
+}
+.aqipic{
+    height: 70%;
+    width: 19.5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.aqi-logo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .full{
+    /* overflow-y: scroll; */
+
+/* } */
+aside{
+    height: 85vh;
+    flex-direction: column;
+
+}
+main{
+    height: 86vh;
+    width: 80%;
+    overflow-y: scroll;
+}
+#today,#days{
+    height: 40vh;
+    width: 40vh;
+}
+.mainTop{
+    width: 98%;
+    height: 58vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#subdiv1,#subdiv2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 98%;
+     height: 45%; 
+    border: 1px solid #000;
+}
+
+#aqi,#riseset,.others{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 48%;
+    height: 98%;
+    border: 1px solid #000;
+}
+#aqi,#riseset{
+    flex-direction: column;
+    background-color: #000000b7;
+    border-radius: 10px;
+}
+.others{
+    width: 24%;
+    height: 90%;
+    flex-direction: column;
+    background-color: #000000b7;
+    border-radius: 10px;
+}
+.th{
+    width: 98%;
+}
+
+
+.setday{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.riseday{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+
+}
+.font{
+    font-size:13px ;
+    font-weight: 600;
+    color: #7a7a7aad;
+}
+.fontH{
+    font-size:28px ;
+    font-weight: 600;
+    color: #000000;
+}
+
+
+
+
+
+#time{
+    font-weight: 600;
+   width: 100%;
+   height: 25vh;
+}
+.timeshift1{
+   color: #e4e4e4c7;
+}
+#time p{
+   width: 100%;
+   color: #ffffff;
+   font-size: 15px;
+   font-weight: 600;
+   /* padding-left: 20px; */
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+ }
+ .today-at{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 20vh;
+   width: 100%;
+   /* border: 1px solid #000; */
+   font-size: 15px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+ .times{
+   height: 90%;
+   width: 24%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgba(26, 24, 24, 0.596);
+   color: #FFF;
+   border-radius: 10px;
+ }
+ .timeicon1,.temperature-icon{
+    height: 30px;
+    width: 30px;
+ }
+
+ #dayicon1,#dayicon2,#dayicon3,#dayicon4,#dayicon5,#icon1,#icon2,#icon3,#icon4{
+   height: 100%;
+   width: 100%;
+   /* position: absolute; */
+   background-image: url("https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04d.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* margin-left: -15px; */
+   /* margin-top: -5px; */
+ }
+
+
+
+
+
+
+.footerE{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+footer {
+    background-color: #000000b7;
+    color: white;
+    padding: 20px;
+    /* margin-bottom: -65vh; */
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer img {
+    height: auto;
+    width: 80px;
+}
+
+.credits {
+    margin-top: 10px;
+    display: flex;
+    width: 15%;
+    height: 80%;
+    /* justify-content: space-evenly; */
+}
+
+.cre {
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+    height: 20vh;
+}
+
+.cre ul {
+    font-size: 15px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+}
+
+ul a {
+    color: rgb(255, 255, 255);
+}
+ul a:hover{
+    color: aliceblue;
+    font-size: 17px;
+}
+.credit{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+}
+.ulf{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.apicredit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.credit h3{
+    width: 87%;
+}
+
